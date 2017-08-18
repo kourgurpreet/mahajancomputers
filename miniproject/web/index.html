@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+        body
+        {
+        background-color:darkgrey; 
+        }
+        .div1{
+            position: absolute;
+            border:2px solid black; 
+            border-radius:4px; 
+            top: 400px;
+            left: 500px;
+          background-color: bisque;  
+          width: 300px; height:180px;
+        }
+        </style>
+         </head>
+        <body>
+    <center>
+         <p><img Src=images/welcome.jpg width="1350" height="350" align="left"/></p> 
+        <div class="div1">
+<form style=" align-content: center; top: 20; left:20;  position: absolute; 
+      "name="myform" method="post" action="process1.jsp">
+   
+    EMAIL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" style=" border:2px solid black; border-radius:4px;"name="t1"><br>
+    PASSWORD <input type="password"style=" border:2px solid black; border-radius:4px;" name="t2"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="LOGIN"><br><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   
+</form>
+            <form  action="process2.jsp">   
+   <input type="submit" style=" align-content: center; top: 130; left:80;  
+          position: absolute;" value="CREATE NEW ACCOUNT "> 
+            </form>  
+            
+            
+        </div>
+    </center>
+        
+       
+    </body>
+    </html>
